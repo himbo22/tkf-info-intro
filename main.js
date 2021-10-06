@@ -18,9 +18,3 @@ function X2() {
     document.getElementById("lol1").style.display = "none";
     document.getElementById("lol2").style.display = "none";
 }
-
-function show_noitification() {
-    const noitification = new Notification("Double click to close video!", {
-        body: "Alo hoang"
-    });
-}
